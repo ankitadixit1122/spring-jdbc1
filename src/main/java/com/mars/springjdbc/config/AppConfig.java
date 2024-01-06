@@ -30,8 +30,7 @@ public class AppConfig {
 		dmDataSource.setUsername(env.getProperty("dbuser"));
 		dmDataSource.setPassword(env.getProperty("dbpassword"));
 		return dmDataSource;
-		
-		
+			
 		
 	}
 }
